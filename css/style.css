@@ -11,8 +11,6 @@ body {
   /* background-image: url("images/background.png") */
 }
 
-
-
 ::-moz-selection {
   background: #000;
   color: #fff;
@@ -908,7 +906,7 @@ h5,
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle>span:before {
-  color: #000 !important;
+  color: white !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
@@ -1182,7 +1180,8 @@ h5,
 }
 
 .section-heading .subheading {
-  color: #ababab;
+  color: black;
+  font-weight: bold;
   font-size: 1.2rem;
 }
 
