@@ -1191,6 +1191,16 @@ h5,
   font-weight: 900;
 }
 
+.custom-card {
+  background-color: #740A00;
+  color: white;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card-title{
+  color: white;
+}
 .class-item {
   border-radius: 4px;
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
