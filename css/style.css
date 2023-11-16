@@ -1332,6 +1332,36 @@ h5,
   }
 }
 
+/* CSS SCHEDULE */
+.schedule-container {
+    padding: 20px;
+  }
+
+.schedule-table {
+  width: 100%;
+}
+
+.schedule-table th,
+.schedule-table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.schedule-table .schedule-time{
+  color: #740A00;
+  font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 576px) {
+    /* Responsive styles for small devices */
+    .schedule-table th,
+    .schedule-table td {
+      font-size: 12px;
+    }
+}
+
 .bgimg a {
   color: #fff;
   text-decoration: underline;
