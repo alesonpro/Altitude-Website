@@ -754,7 +754,7 @@ h5,
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #c83660;
+  color: #740A00;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -763,7 +763,7 @@ h5,
 }
 
 .site-mobile-menu .site-nav-wrap li .active {
-  color: #c83660;
+  color: #740A00;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -939,7 +939,7 @@ h5,
 
 /* Blocks */
 .intro-section {
-  position: relative; 
+  position: relative;
 }
 
 .intro-section>.container {
@@ -1198,9 +1198,10 @@ h5,
   width: 100%;
 }
 
-.card-title{
+.card-title {
   color: white;
 }
+
 .class-item {
   border-radius: 4px;
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
@@ -1334,8 +1335,8 @@ h5,
 
 /* CSS SCHEDULE */
 .schedule-container {
-    padding: 20px;
-  }
+  padding: 20px;
+}
 
 .schedule-table {
   width: 100%;
@@ -1347,17 +1348,18 @@ h5,
   padding: 10px;
 }
 
-.schedule-table .schedule-time{
+.schedule-table .schedule-time {
   color: #740A00;
   font-size: 1.5rem;
 }
 
 @media (max-width: 576px) {
-    /* Responsive styles for small devices */
-    .schedule-table th,
-    .schedule-table td {
-      font-size: 12px;
-    }
+
+  /* Responsive styles for small devices */
+  .schedule-table th,
+  .schedule-table td {
+    font-size: 12px;
+  }
 }
 
 .bgimg a {
