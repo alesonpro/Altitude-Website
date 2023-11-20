@@ -1352,8 +1352,6 @@ h5,
   font-size: 1.5rem;
 }
 
-
-
 @media (max-width: 576px) {
     /* Responsive styles for small devices */
     .schedule-table th,
