@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +15,8 @@
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,11 +35,11 @@
     </div>
 
 
+    <!-- NAVIGATION SECTION -->
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+          <div class="site-logo"><a href="index.html"><img src="images/logo.png" alt="altitude logo"></a></div>
           <div class="ml-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
@@ -50,35 +51,32 @@
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right">
+              <span class="icon-menu h3">
+              </span></a>
           </div>
-
         </div>
       </div>
-
     </header>
+    <!-- END OF NAVIGATION SECTION -->
 
-    <a id="bgndVideo" class="player"
-      data-property="{videoURL:'https://www.youtube.com/watch?v=3P6bEAlW-Vw',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
-    </a>
-
+    <!-- INTRO SECTION -->
     <div class="intro-section" id="home-section" style="background-image: url('images/background.png');">
       <div class="container">
-
         <div class="row align-items-center">
           <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
             <h1 class="mb-3">Where Fitness Meets <span class="altitude">Altitude</span></h1>
             <p class="lead mx-auto desc mb-5">Build your body transform your life</p>
             <p class="text-center">
-              <a href="#" class="btn btn-outline-white py-3 px-5">Get Started</a>
+              <a href="" class="btn btn-outline-white py-3 px-5">Get Started</a>
             </p>
           </div>
         </div>
-
       </div>
     </div>
-
-   <!-- ABOUT US SECTION -->
+    <!-- END OF INTRO SECTION -->
+   
+    <!-- ABOUT US SECTION -->
     <div class="site-section">
       <div class="container">
         <div class="row justify-content-center text-center mb-5">
@@ -94,59 +92,33 @@
               services it offered.Today, Altitude Gym has transformed from a small, local fitness center into a prominent name in the fitness industry. It
               stands as a testament to the fact that a commitment to member well-being, passion for what you do, and a determination
               to help individuals achieve their fitness goals can turn a humble beginning into a thriving fitness community.
-              
             </p>
           </div>
         </div>
 
-        <!-- Slider -->
-        <div id="imageSlider" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/altitude-1.jpg" class="d-block w-100" alt="Image 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-2.jpg" class="d-block w-100" alt="Image 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-3.jpg" class="d-block w-100" alt="Image 3">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-4.jpg" class="d-block w-100" alt="Image 4">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-5.jpg" class="d-block w-100" alt="Image 5">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-6.jpg" class="d-block w-100" alt="Image 6">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-7.jpg" class="d-block w-100" alt="Image 7">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-8.jpg" class="d-block w-100" alt="Image 8">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-9.jpg" class="d-block w-100" alt="Image 9">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-10.jpg" class="d-block w-100" alt="Image 10">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/altitude-11.jpg" class="d-block w-100" alt="Image 11">
-                </div>
-              
+        <!-- IMAGE GALLERY -->
+          <div class="gallery-container">
+            <div class="intro">
+              <h2 class="text-center">Altitude Through the Years</h2>
+              <p class="text-center">The future belongs to those who prepare for it today</p>
             </div>
-            <a class="carousel-control-prev" href="#imageSlider" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#imageSlider" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-</div>
+            <div class="row photos">
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-1.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-2.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-3.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-4.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-5.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-6.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-7.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-8.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-9.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-10.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-11.jpg"></div>
+              <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="images/altitude-12.jpg"></div>
+            </div>
+          </div>
+      </div>
+   </div>
       </div>
     </div>
 <!-- END OF ABOUT US SECTION -->
@@ -165,58 +137,62 @@
     <!-- END OF BANNER -->
 
     <!-- CLASSES SECTION -->
-    <div class="container" id="classes-section">
-      <div class="row justify-content-center text-center mb-5">
-        <div class="col-md-8  section-heading">
-          <span class="subheading">Fitness Class</span>
-          <h2 class="heading mb-3">Our Classes</h2>
-          <p>Together with our coaches, we'll push our limits, embrace the burn, and achieve our fitness goals. Let's get
-            ready to sweat, work hard,
-            and have a great workout session together!</p>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col">
-          <div class="card custom-card">
-            <img src="images/img_1.jpg" class="card-img-top img-fluid" alt="Card 1 Image" width="200">
-            <div class="card-body">
-              <h5 class="card-title">Calisthenics</h5>
-              <p class="card-text">by Coach Lhester</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card custom-card">
-            <img src="images/img_2.jpg" class="card-img-top img-fluid" alt="Card 2 Image" width="200">
-            <div class="card-body">
-              <h5 class="card-title">Weight Loss</h5>
-              <p class="card-text">Coach Jolo and Coach Dendel</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col">
-          <div class="card custom-card">
-            <img src="images/img_3.jpg" class="card-img-top img-fluid" alt="Card 3 Image" width="200">
-            <div class="card-body">
-              <h5 class="card-title">Bodybuilding</h5>
-              <p class="card-text">Coach Jolo and Coach Dendel</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card custom-card">
-            <img src="images/img_4.jpg" class="card-img-top img-fluid" alt="Card 4 Image" width="200">
-            <div class="card-body">
-              <h5 class="card-title">Body Recomposition</h5>
-              <p class="card-text">Coach Jolo and Coach Dendel</p>
-            </div>
-          </div>
+    <div class="row justify-content-center text-center mb-5" id="classes-section">
+  <div class="col-md-8 section-heading">
+    <span class="subheading">Classes</span>
+    <h2 class="heading mb-3">What do the coaches offer?</h2>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/classes-1.jpg" class="card-img-top" alt="calisthenics picture">
+        <div class="card-body">
+          <h5 class="card-title">Calisthenics</h5>
+          <p class="card-text">Calisthenics classes focus on bodyweight exercises that use minimal equipment. They involve movements such as push-ups,
+          pull-ups, squats, and lunges, aiming to improve strength, flexibility, and body control.</p>
+          <h6>Coach Lhester</h6>
         </div>
       </div>
     </div>
-
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/classes-2.jpg" class="card-img-top" alt="weightloss picture"/>
+        <div class="card-body">
+          <h5 class="card-title">Weightloss</h5>
+          <p class="card-text">Weight loss classes are comprehensive programs aiming to enhance overall fitness by incorporating aerobic exercises,
+          strength training routines, and guidance on adopting healthy dietary patterns to facilitate sustained weight reduction
+          and improved wellness.</p>
+          <h6>Coach Dendel and Coach Jolo</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/classes-3.jpg" class="card-img-top" alt="body recomposition picture">
+        <div class="card-body">
+          <h5 class="card-title">Body Recomposition</h5>
+          <p class="card-text">Body composition classes concentrate on transforming body shape and composition by targeting fat loss, muscle gain, and
+          overall toning. They usually incorporate a mix of cardio, resistance training, and nutrition guidance.</p>
+          <h6>Coach Dendel and Coach Jolo</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/classes-4.jpg" class="card-img-top" alt="ronnie coleman and jay cutler picture">
+        <div class="card-body">
+          <h5 class="card-title">Bodybuilding</h5>
+          <p class="card-text">Bodybuilding classes are geared toward increasing muscle mass and strength through structured weightlifting routines and
+          nutrition plans. Participants aim to sculpt and define muscles for aesthetics and strength purposes.</p>
+          <h6>Coach Dendel and Coach Jolo</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <br>
     <!-- END OF CLASSES-SECTION -->
     
     <!-- BANNER -->
@@ -372,8 +348,8 @@
             <div class="ftco-feature-1">
               <span class="icon flaticon-fit"></span>
               <div class="ftco-feature-1-text">
-                <h2>Be Fit</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempora delectus aut, mollitia. Veritatis!</p>
+                <h2>Weight Training</h2>
+                <p>Free weights, weight machines, and resistance equipment for strength training.</p>
               </div>
             </div>
           </div>
@@ -381,8 +357,8 @@
             <div class="ftco-feature-1">
               <span class="icon flaticon-gym-1"></span>
               <div class="ftco-feature-1-text">
-                <h2>Join Club</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae tenetur numquam sunt sequi similique.</p>
+                <h2>Personal Trainor</h2>
+                <p>Customized workout plans designed by certified trainers to meet individual fitness goals.</p>
               </div>
             </div>
           </div>
@@ -390,8 +366,8 @@
             <div class="ftco-feature-1">
               <span class="icon flaticon-gym"></span>
               <div class="ftco-feature-1-text">
-                <h2>Gym Fitness</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fuga, blanditiis. Possimus, error, deserunt.</p>
+                <h2>Specialized Programs</h2>
+                <p>Tailored fitness programs like weight loss programs, muscle building and more</p>
               </div>
             </div>
           </div>
@@ -400,8 +376,8 @@
             <div class="ftco-feature-1">
               <span class="icon flaticon-vegetables"></span>
               <div class="ftco-feature-1-text">
-                <h2>Eat Vegie</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ullam tempore aliquam dolores quos.</p>
+                <h2>Nutrition Bar</h2>
+                <p>The gym has a canteen that provides healthy snacks, smoothies, protein shakes and more on the menu.</p>
               </div>
             </div>
           </div>
@@ -410,8 +386,8 @@
             <div class="ftco-feature-1">
               <span class="icon flaticon-fruit-juice"></span>
               <div class="ftco-feature-1-text">
-                <h2>Fruit Juices</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aut libero, doloribus. Magni, nihil.</p>
+                <h2>Supplements Store</h2>
+                <p>The gym also sell variety of fitness supplements like protein powders, vitamins, pre-workouts, and other dietary supplements</p>
               </div>
             </div>
           </div>
@@ -420,8 +396,9 @@
             <div class="ftco-feature-1">
               <span class="icon flaticon-stationary-bike"></span>
               <div class="ftco-feature-1-text">
-                <h2>Body Warmup</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat dolorem debitis assumenda beatae quis.</p>
+                <h2>Cardio Equipment</h2>
+                <p>Access to diverse cardiovascular machines for enhancing endurance, promoting heart health, and burning calories
+                effectively, also the gym includes a shower room!</p>
               </div>
             </div>
           </div>
@@ -429,7 +406,9 @@
         </div>
       </div>
     </div>
+<!-- END OF SERVICE SECTION -->
 
+    <!-- CONTACT SECTION -->
     <div class="site-section bg-light contact-wrap" id="contact-section">
       <div class="container">
         
@@ -437,95 +416,30 @@
           <div class="col-md-8  section-heading">
             <span class="subheading">Get In Touch</span>
             <h2 class="heading mb-3">Contact Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-              texts.
-            </p>
+            <p>Join Altitude Gym now!</p>
           </div>
         </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-7">
-            <form method="post" data-aos="fade">
-              <div class="form-group row">
-                <div class="col-md-6 mb-3 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Subject">
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea class="form-control" id="" cols="30" rows="10"
-                    placeholder="Write your message here."></textarea>
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <div class="col-md-6">
-    
-                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block" value="Send Message">
-                </div>
-              </div>
-    
-            </form>
+        <div class="container contact-section">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <a href="tel:+63 0927 042 6650" class="btn btn-primary mb-2 w-100 custom-btn">Telephone: 0927 042 6650</a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://www.facebook.com/altitudetraining" target="_blank"
+                class="btn btn-primary mb-2 w-100 custom-btn">Facebook Page</a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://www.instagram.com/altitudegym_baguio/" target="_blank"
+                class="btn btn-primary mb-2 w-100 custom-btn">Instagram</a>
+            </div>
           </div>
+          <h6 class="text-center p-4">#1 Legarda Road, Mountcrest Hotel, Baguio City, Philippines</h6>
         </div>
-      </div>
-    </div>
-<!-- END OF SERVICES SECTION -->
+<!-- END OF CONTACT SECTION -->
     
 <!-- FOOTER SECTION -->
-    <footer class="footer-section bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3 class="text-white">About Workout</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam facere optio eligendi.</p>
-          </div>
-
-          <div class="col-md-3 ml-auto">
-            <h3 class="text-white">Links</h3>
-            <ul class="list-unstyled footer-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Classes</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Trainer</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-4">
-            <h3 class="text-white">Subscribe</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, odio beatae accusantium.
-            </p>
-            <form action="#">
-              <div class="d-flex mb-5">
-                <input type="text" class="form-control rounded-0" placeholder="Email">
-                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
-              </div>
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </footer>
+  
 <!-- END OF FOOTER SECTION -->
-
-
-  </div>
-  <!-- .site-wrap -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -542,10 +456,9 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/jquery.mb.YTPlayer.min.js"></script>
 
-
-
-
-  <script src="js/main.js"></script>
-
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script> -->
+<script src="js/main.js"></script>
 </body>
 </html>
